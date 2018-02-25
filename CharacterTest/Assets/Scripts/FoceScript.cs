@@ -14,8 +14,7 @@ public class FoceScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		spaceMan = GetComponent<Rigidbody2D> ();
-		
+		spaceMan = GetComponent<Rigidbody2D> ();	
 	}
 	
 	// Update is called once per frame
@@ -43,10 +42,6 @@ public class FoceScript : MonoBehaviour {
 			canJump = Time.time + .75f;
 
 		}
-
-
-
-
 
 	}
 }
