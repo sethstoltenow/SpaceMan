@@ -315,6 +315,30 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6c7aca38cb2e4fbe9c510a102ccdf6c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1322353789 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1405825917554162, guid: a6c7aca38cb2e4fbe9c510a102ccdf6c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1322353788}
+--- !u!114 &1322353790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1322353789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5bc5cfab9334eeb9f17847032180f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Projectile: {fileID: 1728141543296200, guid: 6a6695730934246fcba7555f833e23d5, type: 2}
+  spawnPoint: {fileID: 2046370162}
+  gun: {fileID: 1328975483}
+--- !u!4 &1328975483 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4365314427048676, guid: a6c7aca38cb2e4fbe9c510a102ccdf6c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1322353788}
 --- !u!1 &1475870520
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,3 +420,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2046370162 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4689503500577708, guid: a6c7aca38cb2e4fbe9c510a102ccdf6c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1322353788}
